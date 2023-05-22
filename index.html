@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Physics Application</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <h1>Projectiles</h1>
+
+      <figure class="visuals">
+        <img src="./media/projectilePic.png" alt="canon" width="333" height="228" />
+        <figcaption>
+          <strong> Fig. 1 - A Projectile Fired From a Canon </strong>
+        </figcaption>
+      </figure>
+
+      <p>
+        In 1600s, armies used equations of motions to calculate velocities and
+        angle for firing a missle to hit a target. While a quarterback does not
+        do explicit calculations using equations of motion, a computerized
+        football game will certainly need to do these calculations.
+      </p>
+      <div class="visuals">
+        <video controls>
+          <source src="./media/projectileVid.mp4" type="video/mp4" />
+          <source src="./media/projectileVid.ogg" type="video/ogg" />
+        </video>
+      </div>
+      <p>
+        We will use the metric notations that are facored for all scientific and
+        engineering calculations
+      </p>
+      <h2>Abbreviations</h2>
+      <p>The following abbreviations will be used:</p>
+      <ul>
+        <li>meters, m</li>
+        <li>kilometers, km: 100 meters make up a kilometer</li>
+        <li>meters per second, m/s: units for measuring distance</li>
+        <li>
+          meters per second squared, m/s <sup>2</sup>: units for measuring
+          acceleration
+        </li>
+      </ul>
+      <h2>Notations</h2>
+      <p>The following physics notation will be used:</p>
+      <table border="1">
+        <tr>
+          <th>Abbreviations</th>
+          <th>Meaning</th>
+        </tr>
+        <tr>
+          <td>Initial velocity</td>
+          <td>u</td>
+        </tr>
+        <tr>
+          <td>Final velocity</td>
+          <td>v</td>
+        </tr>
+        <tr>
+          <td>Acceleration</td>
+          <td>a</td>
+        </tr>
+        <tr>
+          <td>Time</td>
+          <td>t</td>
+        </tr>
+        <tr>
+          <td>Distance</td>
+          <td>s</td>
+        </tr>
+      </table>
+
+      <h2>Equations</h2>
+      <p>Therefore, some of the useful equations of motion for us are:</p>
+      <ol>
+        <li>
+          <mark>a = (v - u) / t</mark>, which can be arranged to get the
+          following equations
+        </li>
+        <li><mark>t = (v - u) / a </mark>, which can be further arranged as</li>
+        <li><mark>v = u + a * t</mark></li>
+        <li>
+          <mark>s = u * t + 0.5 * a * t<sup>2</sup></mark> , another useful
+          equation of motion
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>

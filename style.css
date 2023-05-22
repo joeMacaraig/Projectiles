@@ -1,0 +1,33 @@
+body {
+    background-color: #78bdfa;
+    font-family: Poppins, sans-serif;
+  }
+  div {
+    background-color: white;
+    border-radius: 30px;
+    padding: 2rem;
+  }
+  h1 {
+    text-align: center;
+  }
+  .visuals{
+      display: flex; 
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  table{
+    background-color: #444444;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  table tr td {
+    padding: 5px;
+  }
+  table tr th {
+    padding-left: 8px;
+  }
